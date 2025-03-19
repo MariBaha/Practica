@@ -2,6 +2,9 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Hola mundo\n");
+    int edad;
+
+    printf("Ingresa tu edad: \n");
+    scanf("%d", &edad);
     return 0;
 }
